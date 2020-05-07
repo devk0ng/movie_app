@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Movie.css";
+import Like from "../routes/Like";
 
-function Movie({year,title,summary,poster,genres}){
+function Movie({url,year,title,summary,poster,genres}){
     return (
-    <div className="movie">
-      <img src={poster} alt={title} title={title}/>
+    <div className="movie" onClick={(function(event){
+      window.open(url);
+      }).bind(this)}>
+      <img src={poster} alt={title} title={title} />
       <div className="movie_data">
         <h3 className="movie_title">{title}</h3>
         <h5 className="movie_year">{year}</h5>

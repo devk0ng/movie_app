@@ -1,0 +1,78 @@
+#header
+	{
+		position: relative;
+		padding: 5em 0em;
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+
+	
+	#logo
+	{
+		position: absolute;
+		top: 4em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		color: rgb(85, 123, 194);
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: rgb(85, 123, 194);
+	}
+
+	
+	#menu
+	{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: #2B3F48;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: #2B3F48;
+		border: 2px solid rgb(85, 123, 194);
+		border-radius: 6px;
+	}
+	
+	#menu .current_page_item a
+	{
+		border: 2px solid rgb(85, 123, 194);
+		background: rgb(85, 123, 194);
+		border-radius: 6px;
+		color: #FFF;
+	}
+	
+	.hi
+	{
+		background:red;
+	}
