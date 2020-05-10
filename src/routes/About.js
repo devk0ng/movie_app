@@ -11,7 +11,7 @@ function About(){
         <p> Name : Hong SungBin</p>
         <p> Number : 010 9370 1528</p>
         <p> email :hsb1596321@gmail.com</p>
-        career : <a href="hongseongbin.github.io/movie_app">click_here</a>
+        career : <a href="http://sungbin.dothome.co.kr/portfolio/index.html">click_here</a>
     </div>
     )
 }
