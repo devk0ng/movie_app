@@ -82,7 +82,7 @@ class Navigation extends React.Component{
         return ( 
             <div id="header">
             <div id="logo">
-            <h1><a href="#">Recommend Movie</a></h1>
+            <h1><a href="#">Recommend Movie By</a></h1>
             </div>
             <div id="menu">
             <ul>
